@@ -1,0 +1,24 @@
+import collections
+
+DoubleEnded = collections.deque(["black","blue","white"])
+print (DoubleEnded)
+
+
+print("Adding to the right: ")
+DoubleEnded.append("yellow")
+print (DoubleEnded)
+
+
+print("Adding to the left: ")
+DoubleEnded.appendleft("green")
+print (DoubleEnded)
+
+
+print("Removing from the right: ")
+DoubleEnded.pop()
+print (DoubleEnded)
+
+
+print("Removing from the left: ")
+DoubleEnded.popleft()
+print (DoubleEnded)
